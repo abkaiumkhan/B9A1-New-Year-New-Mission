@@ -1,4 +1,5 @@
-.background{
+.header{
+    background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
     width: 1320px;
 height: 600px;
 border-radius: 16px;
@@ -31,4 +32,23 @@ padding-bottom: 50px;
     width: 802.9px;
 height: 500px;
 padding: 30px 20px 100px 120px;
+}
+.happy-new-year{
+    padding: 0 380px;
+    width: 802.9px;
+height: 500px;
+}
+.background{
+    background-image: url('../B9A1-New-Year-New-Mission/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+height: 600px;
+flex-shrink: 0;
+margin: 50px 140px;
+}
+#group2024{
+    width: 200px;
+height: 350px;
+padding: 200px ;
+margin-left: 800px;
 }
