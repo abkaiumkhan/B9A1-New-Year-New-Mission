@@ -1,10 +1,28 @@
-.header{
-    background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
-    width: 1320px;
-height: 600px;
-border-radius: 16px;
-background-color: linear-gradient;
-padding: 50px 140px;
+.heading-part{
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url('../B9A1-New-Year-New-Mission/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px;
+    
+}
+.heading-title-description{
+    text-align: center;
+    padding-top: 145px;
+}
+.heading-title{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: 'merriweather, serif;
+}
+.heading-description{
+    color: rgb(240, 233, 233);
+    font-size: 60px;
+    font-family: 'merriweather, serif;
 }
 #offer{
     color: #F00;
@@ -38,17 +56,31 @@ padding: 30px 20px 100px 120px;
     width: 802.9px;
 height: 500px;
 }
-.background{
+}
+.welcome-part2{
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
     background-image: url('../B9A1-New-Year-New-Mission/resources/Vectorrr.png');
     background-repeat: no-repeat;
-    width: 1320px;
-height: 600px;
-flex-shrink: 0;
-margin: 50px 140px;
+    background-size: contain;
 }
-#group2024{
-    width: 200px;
-height: 350px;
-padding: 200px ;
-margin-left: 800px;
+.welcome-part2-title{
+    color: #fff;
+    font-family: 'merriweather,serif ;
+    font-size: 45px;
+    font-weight: 900px;
+    letter-spacing: 5.80px;
+    width: 530px;
+}
+.welcome-part2-body{
+    color: #rgba( 255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400px;
+    width: 576px;
+}
+.welcome-part2{
+    display: flex;
 }
