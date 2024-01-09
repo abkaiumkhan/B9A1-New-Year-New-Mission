@@ -57,7 +57,7 @@ padding: 30px 20px 100px 120px;
 height: 500px;
 }
 }
-.welcome-part2{
+.welcome-part{
     width: 82.5%;
     max-width: 1320px;
     height: 600px;
@@ -65,8 +65,9 @@ height: 500px;
     background-image: url('../B9A1-New-Year-New-Mission/resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
 }
-.welcome-part2-title{
+.welcome-part-title{
     color: #fff;
     font-family: 'merriweather,serif ;
     font-size: 45px;
@@ -74,13 +75,11 @@ height: 500px;
     letter-spacing: 5.80px;
     width: 530px;
 }
-.welcome-part2-body{
+.welcome-part-body{
     color: #rgba( 255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 15px;
     font-weight: 400px;
     width: 576px;
 }
-.welcome-part2{
-    display: flex;
-}
+
